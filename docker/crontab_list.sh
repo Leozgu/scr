@@ -3,17 +3,17 @@
 
 ##############短期活动##############
 # 省钱大赢家-翻翻乐
-1 0,8 * * * node /scripts/jd_618redpacket.js >> /scr/logs/jd_mgold.log 2>&1
+1 0,8 * * * node /scripts/jd_618redpacket.js >> /scr/logs/jd_618redpacket.log 2>&1
 # 省钱大赢家-获取邀请码
-0,2 0 * * * node /scripts/jd_sq.js >> /scr/logs/jd_mgold.log 2>&1
+0,2 0 * * * node /scripts/jd_sq.js >> /scr/logs/jd_sq.log 2>&1
 # 东东电竞经理
 15 10 * * * node /scripts/jd_Elecsport.js >> /scr/logs/jd_mgold.log 2>&1
 # 天降红包
-30 7 * * * node /scripts/jd_SplitRedPacket.js >> /scr/logs/jd_mgold.log 2>&1
+30 7 * * * node /scripts/jd_SplitRedPacket.js >> /scr/logs/jjd_SplitRedPacket.log 2>&1
 # 领京豆额外奖励&抢京豆
-10 7 * * * node /scripts/jd_bean_home.js >> /scr/logs/jd_mgold.log 2>&1
+10 7 * * * node /scripts/jd_bean_home.js >> /scr/logs/jd_bean_home.log 2>&1
 # 美丽研究院
-1 7,12,19 * * * node /scripts/jd_beauty.js >> /scr/logs/jd_mgold.log 2>&1
+1 7,12,19 * * * node /scripts/jd_beauty.js >> /scr/logs/jd_beauty.log 2>&1
 # 京东到家果园任务
 10 0,3,8,11,17 * * * node /scripts/jd_djfruit.js >> /scr/logs/jd_djfruit.log 2>&1
 # 金榜创造营
