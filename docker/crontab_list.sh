@@ -4,7 +4,8 @@
 ##############短期活动##############
 #省钱大赢家-翻翻乐
 1 0,8 * * * node /scripts/jd_618redpacket.js >> /scr/logs/jd_mgold.log 2>&1
-
+#省钱大赢家-获取邀请码
+0,2 0 * * * node /scripts/jd_sq.js >> /scr/logs/jd_mgold.log 2>&1
 
 ##############长期活动##############
 # 签到
